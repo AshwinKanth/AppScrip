@@ -6,6 +6,17 @@
     max-width: 250px;
     width: 50%;
 }
+
+/* .product-main-items-container:hover{
+    transform: scale(1.1);
+    transition: .5s;
+} */
+
+.product-main-items-container:hover {
+    transform: scale(1.0);
+    box-shadow: rgba(103, 197, 228, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px 10px;
+}
+
 @media screen and (min-width:576px) {
     .product-main-items-container{
         width: 33%;
